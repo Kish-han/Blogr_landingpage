@@ -20,3 +20,10 @@ svg{
 .h1{
     @apply mt-8 font-semibold text-lg mb-4
 }
+
+.below{
+    @apply font-light text-sm text-white
+}
+ .linespace{
+     @apply leading-8
+ }
