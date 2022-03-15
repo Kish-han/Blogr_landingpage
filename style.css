@@ -16,3 +16,7 @@ svg{
     margin-left: 0.5rem;
     cursor: pointer;
 }
+
+.h1{
+    @apply mt-8 font-semibold text-lg mb-4
+}
