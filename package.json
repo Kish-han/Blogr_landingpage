@@ -1,0 +1,20 @@
+{
+  "name": "blogr_landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kish-han/Blogr_landingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kish-han/Blogr_landingpage/issues"
+  },
+  "homepage": "https://github.com/Kish-han/Blogr_landingpage#readme"
+}
