@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-container{
+    background-image: url(images\pawel-czerwinski-Z4DD9_kAAfk-unsplash.jpg);
+}
+
+li{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+svg{
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
