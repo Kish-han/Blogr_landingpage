@@ -36,5 +36,7 @@ svg{
     text-decoration: underline solid 2px;
     transition: all 0.3s ease-in;
 }
+
+
 @tailwind utilities;
 

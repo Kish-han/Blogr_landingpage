@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body class="overflow-x-hidden">
-    <div class="header-container w-screen h-96 rounded-bl-[4.5rem] ">
-        <nav class="navbar pt-8 flex  px-24">
+<body class="overflow-x-hidden w-full ">
+    <div id="head-container" class="header-container w-screen h-96 rounded-bl-[4.5rem] ">
+        <nav  class="navbar pt-8 flex  px-24">
             <div class="logo"><img src="/images/logo.svg" alt=""></div>
-            <ul class="flex w-96 ml-[5%] space-x-7 cursor-pointer ">
-                <li>Product <svg  xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
-                <li>Company <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
-                <li>Connect <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
-            </ul>
-            <div class="nav-right flex items-center  ml-[40%] ">
-                <button class=" rounded-2xl h-7 w-24 mr-5 font-semibold text-xs text-white hover:bg-white hover:text-red-500 ease-in duration-150">Login</button>
-                <button class="bg-white rounded-2xl w-28 h-8 font-semibold text-xs text-red-500 hover:bg-[#d39095] hover:text-white ease-in duration-150">Sign up</button>
+            <div id="nav-links" class="flex ">
+                <ul class="flex w-96 ml-[5%] space-x-7 cursor-pointer ">
+                    <li></li>
+                    <li>Product <svg  xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
+                    <li>Company <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
+                    <li>Connect <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></li>
+                </ul>
+                <div class="nav-right flex items-center  ml-[24rem] ">
+                    <button class=" rounded-2xl h-7 w-24 mr-5 font-semibold text-xs text-white hover:bg-white hover:text-red-500 ease-in duration-150">Login</button>
+                    <button class="bg-white rounded-2xl w-28 h-8 font-semibold text-xs text-red-500 hover:bg-[#d39095] hover:text-white ease-in duration-150">Sign up</button>
+                </div>
             </div>
         </nav>
         <div class="flex flex-col justify-center items-center mt-12">
